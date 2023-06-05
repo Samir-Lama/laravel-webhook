@@ -1,6 +1,7 @@
 {
     "name": "samirlama/webhook",
     "description": "Package to execute codes when webhook is triggered",
+    "license": "MIT",
     "autoload": {
         "psr-4": {
             "Samirlama\\Webhook\\": "src/"
