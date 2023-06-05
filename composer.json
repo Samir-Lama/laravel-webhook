@@ -1,17 +1,7 @@
 {
     "name": "samirlama/webhook",
-    "description": "Package to execute codes when webhook is triggered",
+    "description": "git pull based on webhook trigger event",
     "license": "MIT",
-    "autoload": {
-        "psr-4": {
-            "Samirlama\\Webhook\\": "src/"
-        }
-    },
-    "authors": [
-        {
-            "name": "Samir-Lama",
-            "email": "samirlama2010@gmail.com"
-        }
-    ],
+    "minimum-stability": "dev",
     "require": {}
 }

@@ -81,4 +81,9 @@ class WebhookController extends Controller
 
         return $payload;
     }
+
+    public function test()
+    {
+        return response("Ty", 200);
+    }
 }

@@ -6,11 +6,22 @@ use Illuminate\Support\ServiceProvider;
 
 class WebhookServiceProvider extends ServiceProvider
 {
-    public function register(): void
+    /**
+     * Register services.
+     *
+     * @return void
+     */
+    public function register()
     {
+        //
     }
 
-    public function boot(): void
+    /**
+     * Bootstrap services.
+     *
+     * @return void
+     */
+    public function boot()
     {
         include __DIR__.'/routes.php';
     }
