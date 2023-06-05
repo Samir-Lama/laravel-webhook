@@ -1,0 +1,16 @@
+{
+    "name": "samirlama/webhook",
+    "description": "Package to execute codes when webhook is triggered",
+    "autoload": {
+        "psr-4": {
+            "Samirlama\\Webhook\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Samir-Lama",
+            "email": "samirlama2010@gmail.com"
+        }
+    ],
+    "require": {}
+}
